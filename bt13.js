@@ -1,0 +1,10 @@
+let r = +prompt("Enter the radius of the cylinder: ");
+let h = +prompt("Enter the height of the cylinder: ");
+let sxq = 2*Math.PI*r*h;
+let stp = 2*Math.PI*r*h + 2*Math.PI**2;
+let v = Math.PI*r**2*h;
+let chuviday = 2*Math.PI*r;
+console.log(`Sxq: ${sxq}`);
+console.log(`Stp: ${stp}`);
+console.log(`V: ${v}`);
+console.log(`Chu vi day: ${chuviday}`);
